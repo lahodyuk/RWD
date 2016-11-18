@@ -1,0 +1,73 @@
+#main{
+    height: 100%;
+}
+.nav{
+    background: #3FB4FF;
+    height: 14vh;
+    margin: 2% 1% 1%;
+}
+.header{
+    background: #009245;
+}
+.content{
+    background: #D41440;
+}
+.footer{
+    background: #F1861E;
+}
+/*mobile*/
+@media only screen and (min-width: 270px) and (max-width: 767px){
+    .nav{
+        height: 20vh;
+        margin-bottom: 2%;
+    }
+    .header{
+        height: 20vh;
+        margin: 1% 1% 2%;
+    }
+    .content{
+        height: 54vh;
+        margin: 1%;
+    }
+    .footer{;
+        display: none;
+    }
+}
+/*tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){ 
+    .nav{
+        margin-bottom: 2%;
+    }
+    .header{
+        height: 25vh;
+        margin: 1%;
+    }
+    .content, .aside{
+        height: 52vh;
+        margin: 1%;
+        float: left;
+    }
+    .content{
+        width: 61%;
+    }
+    .footer{
+        width: 35%;
+    }
+}
+/*desktop*/
+@media only screen and (min-width: 1025px){ 
+    .header, .content, .aside{
+        height: 75vh;
+        margin: 1%;
+        float: left;
+    }
+    .header{
+        width: 26%;
+    }
+    .content{
+        width: 50%;
+    }
+    .footer{
+        width: 18%;
+    }  
+}
