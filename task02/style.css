@@ -1,0 +1,40 @@
+html, body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 100%;
+}
+body{
+    background-color: #d0cbcb;
+    color: #989898;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 150%;
+}
+@media only screen and (min-width: 270px) and (max-width: 767px){ 
+    .large, .small{
+        display: none;
+    }
+    .ex-small{
+        display: block;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){ 
+    .large, .ex-small{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
+}
+@media only screen and (min-width: 1024px){ 
+    .small, .ex-small{
+        display: none;
+    }
+    .large{
+        display: block;
+    }
+}
