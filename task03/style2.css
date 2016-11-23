@@ -4,7 +4,7 @@
 .nav{
     background: #3FB4FF;
     height: 14vh;
-    margin: 2% 1% 1%;
+    margin: 6px 3px 3px;
 }
 .header{
     background: #009245;
@@ -19,15 +19,15 @@
 @media only screen and (min-width: 270px) and (max-width: 767px){
     .nav{
         height: 20vh;
-        margin-bottom: 2%;
+        margin-bottom: 3px;
     }
     .header{
         height: 20vh;
-        margin: 1% 1% 2%;
+        margin: 3px 3px 6px;
     }
     .content{
         height: 54vh;
-        margin: 1%;
+        margin: 3px;
     }
     .footer{;
         display: none;
@@ -36,38 +36,38 @@
 /*tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1024px){ 
     .nav{
-        margin-bottom: 2%;
+        margin-bottom: 6px;
     }
     .header{
         height: 25vh;
-        margin: 1%;
+        margin: 3px;
     }
     .content, .footer{
         height: 52vh;
-        margin: 1%;
+        margin: 3px;
         float: left;
     }
     .content{
         width: 61%;
     }
     .footer{
-        width: 35%;
+        width: 37.2%;
     }
 }
 /*desktop*/
 @media only screen and (min-width: 1025px){ 
     .header, .content, .footer{
         height: 75vh;
-        margin: 1%;
+        margin: 3px;
         float: left;
     }
     .header{
-        width: 26%;
+        width: 25%;
     }
     .content{
         width: 50%;
     }
     .footer{
-        width: 18%;
+        width: 23.2%;
     }  
 }
