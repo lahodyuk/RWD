@@ -1,0 +1,74 @@
+
+html, body{
+    height: 100%;
+}
+.main{
+    height: 100%;
+    padding-top: 1%;
+    margin: 0 1%;
+}
+.logo{
+    background: #48BDDE;
+    margin-right: 1%;
+}
+.nav{
+    background: #FFAF49;
+}
+.content{
+    background: #FF7645;
+}
+.info{
+    background: #FFD54A;
+}
+.footer{
+    background: #FAC0FA;
+}
+.nav-holder{
+    height: 14%;
+}
+.content-holder{
+    height: 45%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.info-holder{
+    height: 34%;
+}
+.footer{
+    display: none;
+}
+.content, .logo, .nav, .info, .footer{
+    height: 100%;
+}
+.logo{
+    width: 24%;
+}
+.info{
+    width: 32.66%;
+    margin-right: 1%;
+}
+.last{
+    margin-right: 0;
+}
+/*custom media*/
+@media only screen and (min-width: 270px) and (max-width: 767px){ 
+    .info-holder{
+        height: 15%;
+    }
+    .info{
+        width: 100%;
+        margin-bottom: 1%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){ 
+    .nav-holder{
+        height: 8%;
+    }
+    .footer-holder{
+        height: 8%;
+        margin-top: 1%;
+    }
+    .footer{
+        display: block;
+    }
+}
